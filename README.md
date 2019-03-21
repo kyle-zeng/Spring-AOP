@@ -268,3 +268,15 @@ public class InforUpdateAspectBiz {
 	}
 }
 ```
+| 输出：
+添加公司股东，信息如下: 
+{
+  "namCustCompany" : "xxx有限公司",
+  "namCustGstk" : "张三",
+  "datGstk" : "2019-03-21T16:34:07.366+0000",
+  "amtCapitalRstk" : 50000
+}
+将关联关系存入数据库,内容如下: 
+{
+  "txtReltDesc" : "xxx有限公司的股东是张三"
+}
